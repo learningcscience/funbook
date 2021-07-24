@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fakebook</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/fc64e3e78a.js" crossorigin="anonymous"></script>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="st.css">
+		<link rel="icon" href="icon/name.png">
+	</head>
+	<body>
+
+	<div class="navbar">
+      <div class="navbar-left">
+        <a href="index.html"><img class="navbar-logo" src="icon/name.png"></a>
+      </div>
+
+     
+      <div class="navbar-right">
+        <div class="navbar-right-profile">
+          <img src="icon/nnsc.jpg">
+          <span>New Nepal</span>
+        </div>
+         <div class="navbar-right-links">
+          <i class="fab fa-facebook-messenger" onclick="myfunction()"></i>
+          <i class="fa fa-bell" onclick="myFunction()"></i>
+          <i class="fa fa-sort-down" onclick="myFunctions()"></i>
+        </div>
+      </div>
+
+      <p class="badge" id="badge">3</p>
+
+      <div class="notification" id="not">
+      	<div class="notification-inside">
+      			<h4>Notification</h4><br>
+      		<div class="profile">
+				    <img src="icon/avatar2.png">
+					<div>
+						<p>Lucky Shahi i want to join the class. I want to learn website making.</p>
+						<p><a>2 hour ago</a></p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/bb.jpg">
+					<div>
+						<p>Bastola Budha and 1 other have birthday today. Wish them!!!</p>
+						<p><a>5 hour ago</a></p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/sg.jpg">
+					<div>
+						<p>Sanjay Giri  opened accounts on the following two Jobs site.</p>
+						<p><a>2 day ago</a></p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/ps.jpg">
+					<div>
+						<p>Prem Shahi upload a new graphic design. Wish him!!!</p>
+						<p><a>19 minute ago</a></p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/mk.jpg">
+					<div>
+						<p>Mohan Karki added 1 photo that might include you. See phpoto..</p>
+						<p><a>1 day ago</a></p>
+					</div>
+			</div>
+
+      	</div>	
+      	
+      </div>
+
+
+
+<div class="notification" id="lo">
+      	<div class="notification-inside">
+      		<div class="profile">
+				    <img src="icon/nnsc.jpg">
+					<div>
+						<p>New Nepal Society Center</p>
+						<p><a>See your profile</a></p>
+					</div>
+			</div>
+			<hr class="hr-line">
+			<br>
+			<div class="profile">
+					<img src="icon/setting.png">
+					<div>
+						<p>Setting & Privacy</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/display.png">
+					<div>
+						<p>Display & Accessibility</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/help.png">
+					<div>
+						<p>Help & Support</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/logout.png">
+					<div>
+						<p>Logout</p>
+					</div>
+			</div>
+
+      	</div>	
+      	
+      </div>
+
+
+
+      <div class="notification" id="message">
+      	<div class="notification-inside">
+      			<h4>Message</h4><br>
+      		<div class="profile">
+				    <img src="icon/me-1.jpg">
+					<div onclick="mymessage1()">
+						<p>Bhanu Pandey</p>
+						<p><a>Bhanu sent a GIF.</a> 10m</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/me-2.jpg">
+					<div  onclick="mymessage()">
+						<p>Arika Gurung</p>
+						<p><a>Hello.</a>  1d</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/bb.jpg">
+					<div onclick="mymessage2()">
+						<p>Bastola Budha</p>
+						<p><a>come in. </a>  1d</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/me-3.jpg">
+					<div>
+						<p>Bijay Shahi</p>
+						<p><a>Javascript , html.</a> 2d</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/me-4.jpg">
+					<div>
+						<p>Surendra Shahi</p>
+						<p><a>https://learningcscience..</a> 1d</p>
+					</div>
+			</div>
+			<br>
+			<div class="profile">
+					<img src="icon/mk.jpg">
+					<div>
+						<p>Mohank Karki</p>
+						<p><a>google.</a> 1m</p>
+					</div>
+			</div>
+
+      	</div>	
+      	
+      </div>
+    </div>
+		<div class="container">
+			<div class="left-nav">
+				<div class="links">
+					<a href="https://learningcscience.github.io/travel"><span class="material-icons">tour</span>Tour</a>
+					<a href="https://learningcscience.github.io/restaurant/"><span class="material-icons">restaurant</span>Restaurant</a>
+					<a href="https://learningcscience.github.io/carsbuys/"><span class="material-icons">local_taxi</span>Cars</a>
+					<a href="https://learningcscience.github.io/track/"><span class="material-icons">music_note</span>Music</a>
+					<a href="https://learningcscience.github.io/DGCenter/"><span class="material-icons">pets</span>Dog</a>
+					<a href="#">See More</a>
+					<hr class="line">
+				</div>
+				<div class="group">
+					<p>Our Class</p>
+					<a href="#"><img src="icon/group-1.jpg">Website Development</a>
+					<a href="#"><img src="icon/group-2.jpg">Jabascript Programming</a>
+					<a href="#"><img src="icon/group-3.jpg">Graphic Class</a>
+					<a href="#"><img src="icon/group-4.jpg">Life Lession</a>
+				</div><br>
+				<p>&copy All Right Reserve</p>
+			</div>
+			<div class="main-contain">
+					<div class="profile-contain">
+					<div class="profile">
+						<a href="sanjay.html"><img src="icon/sg.jpg"></a>
+						<div>
+							<p class="name">Sanjay Giri  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>July 13 2021, 3:00PM</p>
+						</div>
+					</div>
+					<p class="post-text">I have opened accounts on the following two Jobs site. I have posted your works there. So create even more quality websites. If the people like your work they will pay you to create their websites. </p>
+					<img src="icon/c-1.jpg" class="main-img">
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>20K</div>
+						 	<div><i class="fa fa-comment"></i>1K</div>
+						 	<div><i class="fa fa-share"></i>100</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="profile-contain">
+					<div class="profile">
+						<a href="bastola.html"><img src="icon/bb.jpg"></a>
+						<div>
+							<p class="name">Bastola Budha  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>August 2 2021, 7:00PM</p>
+						</div>
+					</div>
+					<p class="post-text"> The Restaurant website is made by me. The website is about you can book Restaurant for your party.</p>
+					<a href="https://learningcscience.github.io/restaurant/"><img src="icon/web-1.png" class="main-img"></a>
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>5K</div>
+						 	<div><i class="fa fa-comment"></i>900</div>
+						 	<div><i class="fa fa-share"></i>40</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-contain">
+					<div class="profile">
+						<a href="lokendra.html"><img src="icon/ls.jpg"></a>
+						<div>
+							<p class="name">Lokendra Shahi  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>August 15 2021, 12:00AM</p>
+						</div>
+					</div>
+					<p class="post-text">The DBR Shop website is made by me. The website is about you can buy Professionally Trained Animals.</p>
+					<a href="https://learningcscience.github.io/dbrshop/"><img src="icon/web-2.png" class="main-img"></a>
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>5.4K</div>
+						 	<div><i class="fa fa-comment"></i>1K</div>
+						 	<div><i class="fa fa-share"></i>50</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-contain">
+					<div class="profile">
+						<a href="mohan.html"><img src="icon/mk.jpg"></a>
+						<div>
+							<p class="name">Mohan Karki  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>May 9 2021, 2:00PM</p>
+						</div>
+					</div>
+					<p class="post-text">The Owl website is made by me. This is knowledgeable website. You can read about owl.</p>
+					<a href="https://learningcscience.github.io/owl/"><img src="icon/web-3.png" class="main-img"></a>
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>3K</div>
+						 	<div><i class="fa fa-comment"></i>200</div>
+						 	<div><i class="fa fa-share"></i>10</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-contain">
+					<div class="profile">
+						<a href="prem.html"><img src="icon/ps.jpg"></a>
+						<div>
+							<p class="name">Prem Shahi  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>July 16 2021, 8:00AM</p>
+						</div>
+					</div>
+					<p class="post-text">The Graphic design is made by me. This Graphic design is related to visit nepal.</p>
+					<img src="icon/web-4.jpg" class="main-img">
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>7K</div>
+						 	<div><i class="fa fa-comment"></i>999</div>
+						 	<div><i class="fa fa-share"></i>99</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-contain">
+					<div class="profile">
+						<a href="bishnu.html"><img src="icon/bi.jpg"></a>
+						<div>
+							<p class="name">Bishnu Bogati  <span class="material-icons" class="verified-id">verified</span></p>
+							<p>May 26 2021, 1:00PM</p>
+						</div>
+					</div>
+					<p class="post-text">The new graphic design.</p>
+					<img src="icon/gc.png" class="main-img">
+					<div class="react">
+						<div class="button-icon">
+						 	<div><i class="fa fa-heart" onclick="like(this)"></i>1.3K</div>
+						 	<div><i class="fa fa-comment"></i>19</div>
+						 	<div><i class="fa fa-share"></i>7</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="right-nav">
+
+				
+
+				 <div class="right-title">
+					<h4>Students</h4>
+				</div>
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/ls.jpg">
+					</div>
+					<p>Lokendra Shahi </p>
+				</div>
+
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/bb.jpg">
+					</div>
+					<p>Bastola Budha</p>
+				</div>
+
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/mk.jpg">
+					</div>
+					<p>Mohan Karki</p>
+				</div>
+
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/bi.jpg">
+					</div>
+					<p>Bishnu Bogati</p>
+				</div>
+
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/ps.jpg">
+					</div>
+					<p>Prem Shahi</p>
+				</div>
+
+				<div class="online-list">
+					<div class="online">
+						<img src="icon/db.jpg">
+					</div>
+					<p>Dhira Budha</p>
+				</div>
+				
+
+				
+					 <div class="msg-body" id="chat">
+						<div class="msg-head">
+						       	 <div class="msg-head-img">
+							<img src="icon/sg.jpg">
+							</div>
+							<div class="actv">
+							<h4>Sanjay</h4>
+							<h6>1 hour ago..</h6>
+							</div>
+
+							<div class="msg-head-icon">
+							<i class="fa fa-phone"></i>
+							<i class="fa fa-video-camera"></i>
+							<i class="fa fa-close"></i>
+							</div>
+						</div>
+						<div class="msg-main">
+						        <div class="box">
+						            <div class="item">
+						                <div class="msg-head-img">
+						                    <img src="icon/sg.jpg">
+						                </div>
+						                <div class="msg">
+						                    <p>Hello Students, How are you?</p>
+						                </div>
+						            </div>
+						            <br><br><br>
+						            <div class="item right">
+						                <div class="msg">
+						                    <p>Fine, sir</p>
+						                </div>
+						            </div>
+						        </div>
+						<br><br><br>
+						<div class="box">
+						            <div class="item">
+						                <div class="msg-head-img">
+						                    <img src="icon/sg.jpg">
+						                </div>
+						                <div class="msg">
+						                    <p>What are you doing?</p>
+						                </div>
+						            </div>
+						            <br><br><br>
+						            <div class="item right">
+						                <div class="msg">
+						                    <p>making banner!!</p>
+						                </div>
+						            </div>
+						        </div>
+						<br><br><br>
+
+				</div>
+
+
+
+				 
+
+
+			</div>
+		</div>
+
+
+
+<script>
+	
+ 		function like(x){
+			 if ( x.style.color ==="red") {
+			 	x.style.color = "white";
+			 }else{
+			 	x.style.color = "red";
+			 }
+		}
+
+		function myFunction(){
+			var x = document.getElementById("not");
+			var y = document.getElementById("badge");
+			y.style.display = "none";
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			}else {
+				x.style.display = "block";
+			}
+		}
+
+
+		function myfunction(){
+			var x = document.getElementById("message");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			}else {
+				x.style.display = "block";
+			}
+		}
+
+		function myFunctions(){
+			var x = document.getElementById("lo");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			}else {
+				x.style.display = "block";
+			}
+		}
+
+		function mymessage1(){
+			var b = document.getElementById("chat");
+			var c = document.getElementById("message");
+			c.style.display = "none";
+			if (b.style.display === "block") {
+				b.style.display = "none";
+			}else {
+				b.style.display = "block";
+			}
+		}
+
+		function mymessage(){
+			var x = document.getElementById("chat");
+			var a = document.getElementById("message");
+			a.style.display = "none";
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			}else {
+				x.style.display = "block";
+			}
+		}
+
+</script>
+	</body>
+	</html>	
